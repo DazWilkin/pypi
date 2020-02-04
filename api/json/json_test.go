@@ -30,20 +30,36 @@ var tests = []struct {
 		URL:      "https://files.pythonhosted.org/packages/e5/27/1f908ebb99c8d48a5ba4eb9d7997f5633b920d98fe712f67aaa0663f1307/grpcio-1.23.0-cp37-cp37m-manylinux1_x86_64.whl",
 	},
 	{
+		Name:     "grpcio",
+		Version:  "1.26.0",
+		Filename: "grpcio-1.26.0-cp38-cp38-manylinux1_x86_64.whl",
+		URL:      "https://files.pythonhosted.org/packages/53/4c/a176ceab418bd377a4067dae094da4c1144486a38ea2dd6e82767fb96d84/grpcio-1.26.0-cp38-cp38-manylinux1_x86_64.whl",
+	},
+
+	{
 		Name:     "opencensus",
 		Version:  "0.7.2",
 		Filename: "opencensus-0.7.2-py2.py3-none-any.whl",
-		URL:      "https://files.pythonhosted.org/packages/b6/13/c37904d9f77c320dfd39b6d5c6bd95947c59e19baa3c6c4f4df6418d1433/opencensus-0.7.2-py2.py3-none-any.whl"},
+		URL:      "https://files.pythonhosted.org/packages/b6/13/c37904d9f77c320dfd39b6d5c6bd95947c59e19baa3c6c4f4df6418d1433/opencensus-0.7.2-py2.py3-none-any.whl",
+	},
 	{
 		Name:     "prometheus_client",
 		Version:  "0.7.1",
 		Filename: "prometheus_client-0.7.1.tar.gz",
-		URL:      "https://files.pythonhosted.org/packages/b3/23/41a5a24b502d35a4ad50a5bb7202a5e1d9a0364d0c12f56db3dbf7aca76d/prometheus_client-0.7.1.tar.gz"},
+		URL:      "https://files.pythonhosted.org/packages/b3/23/41a5a24b502d35a4ad50a5bb7202a5e1d9a0364d0c12f56db3dbf7aca76d/prometheus_client-0.7.1.tar.gz",
+	},
 	{
 		Name:     "protobuf",
 		Version:  "3.9.1",
 		Filename: "protobuf-3.9.1.tar.gz",
-		URL:      "https://files.pythonhosted.org/packages/6d/54/12c5c92ffab546538ea5b544c6afbfcce333fd47e99c1198e24a8efdef1f/protobuf-3.9.1.tar.gz"},
+		URL:      "https://files.pythonhosted.org/packages/6d/54/12c5c92ffab546538ea5b544c6afbfcce333fd47e99c1198e24a8efdef1f/protobuf-3.9.1.tar.gz",
+	},
+	{
+		Name:     "protobuf",
+		Version:  "3.11.3",
+		Filename: "protobuf-3.11.3-cp38-cp38-manylinux1_x86_64.whl",
+		URL:      "https://files.pythonhosted.org/packages/9a/71/5cdb5ed762a537eac39097ae6ecf8785e276b5044efe99b8e53cb3addd7f/protobuf-3.11.3-cp38-cp38-manylinux1_x86_64.whl",
+	},
 }
 
 func TestMain(m *testing.M) {
