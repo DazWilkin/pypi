@@ -94,7 +94,7 @@ func (r Response) Packages(version string) (Packages, error) {
 	return nil, fmt.Errorf("Version [%s] not found", version)
 }
 
-// Package is a function that returns the unique Package matching q
+// Package is a function that returns the unique Package matching 'c'
 func (p Packages) Package(c Package) (Package, error) {
 	if c.Filename == "" && c.URL == "" {
 		return Package{}, fmt.Errorf("undefined criteria will never match")
