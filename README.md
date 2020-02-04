@@ -6,4 +6,4 @@ See: [https://warehouse.readthedocs.io/api-reference/json/](https://warehouse.re
 
 **Caveat**: this is an  incomplete|partial implementation of the PyPi JSON API sufficient for the needs of another project
 
-See `ap/json/json_test.go` for example use.
+See `api/json/json_test.go` for example use.
